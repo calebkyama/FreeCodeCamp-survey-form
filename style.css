@@ -1,0 +1,77 @@
+/*import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/*css reset   
+What is CSS resetting?
+A CSS Reset style sheet is a list of rules that 'reset' all of the default browser styles. We reset the browser styles for two primary reasons: Not all browsers apply the same default rules. They may be similar, but not exact.*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: 'Sofia',monospace;
+  width:100%;
+  height:auto;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-color: rgba(181, 185, 245, 1);
+  color:#000;
+}
+
+
+.img {
+  opacity: 0.2;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 250%;
+  z-index:-1;
+  background-size:cover;
+}
+#heading{
+  max-width:750px;
+  margin:4rem auto;
+  padding:.6em;
+}
+
+#main{
+  padding:0% 20% 0% 20%;
+}
+#title{
+  font-size:2em;
+  text-align:center;
+  padding:0.6em;
+}
+#description{
+  font-size:1.2em;
+  text-align:center;
+  padding:0.2em;
+  
+
+}
+#survey-form{
+  padding:4em 2.5em;
+}
+#submit{
+  padding:.7em;
+  font-size:0.8rem;
+  cursor:pointer;
+}
+#submit:hover{
+   background: rgba(255, 0, 0, 0.64);
+}
+.form{
+      width: 100%;
+  padding: .7rem;
+  border-radius: 6px;
+  font-size: 1.0rem;
+  border: none;
+}
+@media only screen and(max-width:480px){
+  #main{
+    padding:0% 0% 0% 0%;
+  }
+}

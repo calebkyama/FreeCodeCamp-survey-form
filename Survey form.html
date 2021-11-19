@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial scale=1.0">
+  <title>Music producer Survey form </title>
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+  
+ <body>
+   <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGjvWSsMmoXMXv4veDYko5KUtapj6q6ZDsZg&usqp=CAU" alt=" pic of people dancing">
+   <div id="heading">
+     <h1 id="title">MUSIC PRODUCERS! Tell us what genres you produce!</h1>
+     <p id="description">
+       We'd love to know the genres of music that you make
+     </p>
+   </div>
+   
+   <div id="main">
+     <form id="survey-form">
+       
+        <div id= "inputs">
+          <label id="name-label"><b>Name:</b></label>
+          <input id="name" type="name" name="name" class="form" placeholder=" Full name">
+          <br><br>
+          <label id="email-label"><b>Email:</b></label> 
+          <input id="email" type="email" name="email" class="form" placeholder="Email">
+          <br><br>
+          <label id="number-label"><b>Age:</b></label>
+          <input id="number" type="number" name="number" class="form" min="6" max="120" placeholder= "Age">
+       </div>
+       
+       <div id=dropdown-div><br>
+         <label id="dropdown-label"><strong> Music genre you produce:</strong></label><br>
+         <select id="dropdown" name="genre" class="form">
+           
+           <option value="EDM">EDM</option>
+           <option value="Rock">Rock</input>
+           <option value="Pop">Pop</option>
+           <option value="Trap">Trap</option> 
+           <option value="Hiphop">Hiphop</option>
+           <option value="Drill">Afro</option>
+           <option value="Alternative">Alternative</option>
+         
+         </select>
+       </div>
+     
+    <div id="buttons">
+      <br>
+      <label id="DAW used"><b>Which DAW do you use:<b></label>
+      <br>
+        <input type="radio" class="radio-inline" name="musician-type" value="FL studio">FL studio<br>
+        <input type="radio" class="radio-inline" name="musician-type"value="Ableton Live">Ableton live<br>
+        <input type="radio" class="radio-inline" name="musician-type" value="Cubase">Cubase<br>
+        <input type="radio" class="radio-inline" name="musician-type" value="Logic">Logic<br>
+        <input type="radio" class="radio-inline" name="musician-type" value="Reaper" >Reaper<br>
+        <input type="radio" class="radio-inline" name="musician-type" value="Pro-tools">Pro-tools<br>
+        
+     </div>
+        
+        <div id="checkboxes">
+          <br>
+          <label id="new-genre"><b>New genre you'd like to produce:</b></label><br>
+          <input type="checkbox" name="year" value="EDM<">EDM<br>
+          <input type="checkbox" name="year" value="Rock">Rock<br>
+          <input type="checkbox" name="year" value="Pop">Pop<br>
+          <input type="checkbox" name="year" value="Trap">Trap<br>
+          <input type="checkbox" name="year" value="Hiphop">Hiphop<br>
+          <input type="checkbox" name="year" value="Afro">Afro<br>
+          <input type="checkbox" name="year" value="Alternative">Alternative<br>
+        </div>
+        
+        <div id="end">
+          <br>
+          <label id="comments">What can we add to make our survey better? </label><br>
+          <textarea style=height:100px width:200px class="form" placeholder="Give us your views"></textarea>           <br><br>
+
+          <input id="submit" type="submit" class="form">
+        </div>
+       
+     </form>
+   </div>
+  </body>
+  
